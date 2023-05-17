@@ -1,0 +1,61 @@
+@import 'config';
+@import 'utilities';
+
+// General styles
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: $font-stack;
+  background: $light-color;
+}
+
+h2 {
+  color: $dark-color;
+  font-size: 1.4rem;
+}
+
+p {
+  font-size: 15px;
+  color: $medium-color;
+  margin: 1rem;
+}
+
+img {
+  width: 100%;
+  border-radius: .7rem;
+}
+
+// QR Code Component
+.qr-code-component {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .qr-code {
+    background: $white-color;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    width: 20rem;
+    height: 31.1rem;
+    border-radius: 1rem;
+
+    &-image {
+      width: 18rem;
+      margin: 1rem 0;
+    }
+
+    &-content {
+      padding: 0 1rem;
+    }
+  }
+}
+
+@import 'media';

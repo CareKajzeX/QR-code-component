@@ -1,0 +1,14 @@
+{
+  "name": "qr_code_component",
+  "version": "1.0.0",
+  "description": "Frontend Mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "CareKajze",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
